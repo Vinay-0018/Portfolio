@@ -1,0 +1,234 @@
+body {
+    background-image: url("https://res.cloudinary.com/dgblqkaza/image/upload/v1774521332/Sleek_abstract_blue_and_purple_light_tqpfkg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0%;
+}
+.anchor{
+    margin-left: auto;
+}
+.navbar .logo{
+    color: white !important;
+    font-size: 28px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+
+.logo-dot{
+    color: rgb(234, 124, 124);
+}
+
+.navbar .item-nav {
+    color: white;
+    transition: color 0.3s ease;
+
+}
+.navbar .item-nav:hover{
+    color: rgb(234, 124, 124);
+}
+
+.hire-btn{
+    position: relative;
+    background-color: rgb(234, 124, 124);
+    color: white;
+    border-radius: 20px;
+    padding: 8px 20px;
+    margin-left: 20px;
+    transition: all 0.3s ease;
+}
+
+.hire-btn::after{
+    content: "";
+    position: absolute;
+    left: 50%;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: white;
+    transition: 0.3s;
+    transform: translateX(-50%);
+}
+
+.hire-btn:hover::after{
+    width: 60%;
+}
+
+
+.body-sec{
+height: 100vh;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.box-left{
+    color: white;
+    
+}
+
+.h-para{
+
+}
+.para{
+    display: flex;
+    justify-content: center;
+    align-content: left;
+    padding-top: 100px;
+    font-size: 25px;
+}
+img{
+    height: 600px;
+    width: 500px;
+    border-radius: 40%;
+    box-shadow: 0 10px 60px rgb(234, 124, 124);
+}
+
+.skills-title{
+    margin-top: 20px;
+    color: rgb(234, 124, 124);
+}
+
+.about-text{
+    color: white;
+    font-size: 20px;
+}
+.skills{
+    margin-top: 15px;
+}
+
+.skills span{
+    display: inline-block;
+    background-color: rgba(255,255,255,0.1);
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.skills span:hover{
+    background-color: rgb(234, 124, 124);
+}
+
+
+.projects-sec{
+    padding: 100px 0;
+    text-align: center;
+}
+
+.section-title{
+    font-size: 36px;
+    margin-bottom: 40px;
+    color: white;
+}
+
+/* Project Card */
+.section-title{
+    font-size: 38px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.project-card{
+    background: rgb(242, 210, 210);
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 20px;
+    height: 100%;
+    transition: all 0.3s ease;
+    backdrop-filter: blur(10px);
+}
+
+/* Hover effect */
+.project-card:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 10px 40px rgba(234, 124, 124, 0.5);
+}
+
+/* Text styling */
+.project-card h4{
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.project-card p{
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.contact-sec{
+    padding: 100px 0;
+    color: white;
+    text-align: center;
+}
+
+/* Contact box */
+.contact-info{
+    margin-top: 30px;
+}
+
+/* Text */
+.contact-info p{
+    font-size: 20px;
+    margin: 15px 0;
+}
+
+/* Links */
+.contact-info a{
+    color: rgb(234, 124, 124);
+    text-decoration: none;
+    margin-left: 5px;
+    transition: 0.3s;
+}
+
+/* Hover effect */
+.contact-info a:hover{
+    color: white;
+    text-decoration: underline;
+}
+
+.footer-sec{
+    padding: 40px 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    text-align: center;
+}
+
+/* Logo */
+.footer-logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.footer-logo span{
+    color: rgb(234, 124, 124);
+}
+
+/* Links */
+.footer-sec a{
+    color: rgb(234, 124, 124);
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.3s;
+}
+
+.footer-sec a:hover{
+    color: white;
+}
+
+/* Copyright */
+.copyright{
+    font-size: 14px;
+    margin-top: 10px;
+    opacity: 0.7;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+

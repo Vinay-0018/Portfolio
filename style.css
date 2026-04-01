@@ -10,6 +10,12 @@ body {
 .anchor{
     margin-left: auto;
 }
+@media(max-width: 768px){
+    .anchor{
+        margin-left:0;
+        text-align: left;
+    }
+}
 .navbar .logo{
     color: white !important;
     font-size: 28px;
@@ -70,21 +76,25 @@ align-items: center;
     
 }
 
-.h-para{
 
-}
 .para{
-    display: flex;
-    justify-content: center;
-    align-content: left;
-    padding-top: 100px;
-    font-size: 25px;
+    text-align: left;
+    line-height: 1.6;
+    padding-top: 30px;
+    font-size: 20px;
 }
 img{
-    height: 600px;
-    width: 500px;
+    width: 100%;
+    max-width: 500px;
+    height: auto;
     border-radius: 40%;
     box-shadow: 0 10px 60px rgb(234, 124, 124);
+    animation:float 4s ease-in-out  infinite;
+}
+@keyframes float{
+    0%{transform: translateY(0px);}
+    50%{transform:translateY(-15px);}
+    100%{transform: translateY(0px);}
 }
 
 .skills-title{
@@ -230,5 +240,20 @@ img{
 
 html {
     scroll-behavior: smooth;
+}
+
+@media (max-width: 768px) {
+    .para {
+        padding-top: 15px;
+        font-size: 16px;
+        line-height: 1.5;
+        text-align: center;
+    }
+    .box-left{
+        text-align:center;
+    }
+    .project-card{
+        padding:20px;
+    }
 }
 
